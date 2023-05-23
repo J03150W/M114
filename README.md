@@ -3,6 +3,7 @@ ePortfolie des Moduls-114
 
 ## Inhaltsverzeichnis
  - [Tag-1](#Tag-1)
+ - [Tag-2](#tag-2)
 
 ---
 
@@ -76,6 +77,30 @@ Umgerechnet in Dezimal wäre es 192.168.76.21
 Ich denke, dass die Kombination umgerechnet in Hexadezimal eine IPv6 Addresse steht. <br>
 Umgerechnet in Hexadezimal wäre es be.83.85.d5.e4.fe
 
+### Aufgabe 8. chmod 751 WeeklyReport
+chmod sind File und Folder Berechtigungen, wobei jede Ziffer(Binär) von "751" respektive die Berechtigungen(r = read, w = write, x = execute) für "Owner", "Group" und "Other" beschreibt.<br>
+Owner: 7 = 111 -> r=1, w=1, x=1 alle true also read, write und execute Rechte <br>
+Group: 5 = 101 -> r=1, w=0, x=1 nur read und execute Rechte  <br>
+Other: 1 = 001 -> r=0, w=0, x=1 nur execute Rechte
 
+### Aufgabe 9. 107 Gondeln
+16 Goldeln = 4 bit
+32 Gondeln = 5 bit
+63 Gondeln = 6 bit
+128 Gondeln = 7 bit
 
+Für 107 Gondeln werden mindestens 7 bits benötigt
+
+## Tag-2
+
+### Negative Zahlen
+Mit dem 2er Komplement kann man Ganze Zahlen in Binär zu ihrem Negativem Counterpart darstellen. Es besteht aus 2 Schritten.
+
+Beispiel mit Nummer 2
+1. Zahl negieren (in Binär 1 zu 0 und 0 zu 1) -> 2 = 0010 => 1101
+2. Plus 1 -> 1101 + 0001 => 1110 = -2
+
+### ASCI Code
+
+Zeichen sind nummeriert in Hex innerhalb von 8 bit (beinhaltet 256 Zeichen). Alle Zeichen findet man hier auf dieser [ASCII Tabelle](https://www.asciitable.com/).
 
