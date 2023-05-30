@@ -116,4 +116,14 @@ UTF-16 -> 1 Zeichen = normalerweise 2 byte ~> 138 Bytes = Testsample3
 #### Wie viele Zeichen
 Alle files haben je 68 Zeichen
 
+#### Dateiengrössen
+Testsample1 = 68 Bytes
+Testsample2 = 71 bytes
+Testsample3 = 138 Bytes
+
+Je nach codierung benutzen Zeichen unterschiedlich viel Speicher.
+
+#### Methoden von UTF-16 zB BE & LE
+Big-Endian (BE) und Little-Endian (LE) sind Methoden, um Bytes in einer Datei oder im Speicher anzuordnen. Bei Big-Endian wird das wichtigste Byte zuerst gespeichert, während bei Little-Endian das kleinste Byte zuerst steht. 
+
 
