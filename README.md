@@ -133,4 +133,12 @@ Big-Endian (BE) und Little-Endian (LE) sind Methoden, um Bytes in einer Datei od
 
 ## Tag-3
 
+### Barcodes
+EAN-13 -> || | |||| <br>
+nur follständig lesbar
 
+            
+QR-Code -> □ <br>
+QR-Codes sind auch wenn sie nicht follständig sind trotzdem lesbar.
+Ich habe mit [QR.io](https://qr.io/?gclid=CjwKCAjwvdajBhBEEiwAeMh1U-Uu9-BbSEJWYM0N_ESLBIpEQZYmTlAjXZGp6Vt5J98x6F6oiDjcaBoC8BkQAvD_BwE) einen QR-Code mit dem text "I just generated my first QR-CODE!" generiert. <br>
+![QR-Code](/Screenshots/QR-Code.png)
