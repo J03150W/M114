@@ -100,7 +100,16 @@ Beispiel mit Nummer 2
 1. Zahl negieren (in Binär 1 zu 0 und 0 zu 1) -> 2 = 0010 => 1101
 2. Plus 1 -> 1101 + 0001 => 1110 = -2
 
-### ASCI Code
+### ASCII Code
 
 Zeichen sind nummeriert in Hex innerhalb von 8 bit (beinhaltet 256 Zeichen). Alle Zeichen findet man hier auf dieser [ASCII Tabelle](https://www.asciitable.com/).
+
+### Aufgaben zu ASCII und Unicode
+
+#### Welches File welche Codierung
+Alle files 68 Zeichen
+
+ASCII -> 1 Zeichen = 1 Byte -> 68 Bytes = Testsample1
+UTF-8 -> 1 Zeichen = normalerweise 1 Byte ~> 71 Bytes = Testsample2
+UTF-16 -> 1 Zeichen = normalerweise 2 byte ~> 138 Bytes = Testsample3
 
