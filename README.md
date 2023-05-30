@@ -4,6 +4,7 @@ ePortfolie des Moduls-114
 ## Inhaltsverzeichnis
  - [Tag-1](#Tag-1)
  - [Tag-2](#tag-2)
+ - [Tag-3](#Tag-3)
 
 ---
 
@@ -91,6 +92,8 @@ Other: 1 = 001 -> r=0, w=0, x=1 nur execute Rechte
 
 Für 107 Gondeln werden mindestens 7 bits benötigt
 
+---
+
 ## Tag-2
 
 ### Negative Zahlen
@@ -125,5 +128,9 @@ Je nach codierung benutzen Zeichen unterschiedlich viel Speicher.
 
 #### Methoden von UTF-16 zB BE & LE
 Big-Endian (BE) und Little-Endian (LE) sind Methoden, um Bytes in einer Datei oder im Speicher anzuordnen. Bei Big-Endian wird das wichtigste Byte zuerst gespeichert, während bei Little-Endian das kleinste Byte zuerst steht. 
+
+---
+
+## Tag-3
 
 
