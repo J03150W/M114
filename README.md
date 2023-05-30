@@ -107,9 +107,13 @@ Zeichen sind nummeriert in Hex innerhalb von 8 bit (beinhaltet 256 Zeichen). All
 ### Aufgaben zu ASCII und Unicode
 
 #### Welches File welche Codierung
-Alle files 68 Zeichen
+Alle files haben je 68 Zeichen
 
 ASCII -> 1 Zeichen = 1 Byte -> 68 Bytes = Testsample1
 UTF-8 -> 1 Zeichen = normalerweise 1 Byte ~> 71 Bytes = Testsample2
 UTF-16 -> 1 Zeichen = normalerweise 2 byte ~> 138 Bytes = Testsample3
+
+#### Wie viele Zeichen
+Alle files haben je 68 Zeichen
+
 
