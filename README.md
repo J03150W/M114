@@ -142,3 +142,42 @@ QR-Code -> □ <br>
 QR-Codes sind auch wenn sie nicht follständig sind trotzdem lesbar.
 Ich habe mit [QR.io](https://qr.io/?gclid=CjwKCAjwvdajBhBEEiwAeMh1U-Uu9-BbSEJWYM0N_ESLBIpEQZYmTlAjXZGp6Vt5J98x6F6oiDjcaBoC8BkQAvD_BwE) einen QR-Code mit dem text "I just generated my first QR-CODE!" generiert. <br>
 ![QR-Code](/Screenshots/QR-Code.png)
+
+### Codierung mit Bilder
+rgb -> red, green and blue
+
+Alle bilder digital werden mit dem RGB spektrum gebildet. Für jeden buchstaben bigt es je ein 2 stellige zahl in Hex die die Stärke der jeweiligen farbe von RGB. Somit kann man mit einer 6 stelligen Hex Nummer praktisch alle Farbern darstellen.
+
+#### Aufgabe: Farbe von RGB-Farbcodes
+#FF0000 entspricht der Farbe Rot 
+#00FF00 entspricht der Farbe Grün 
+#0000FF entspricht der Farbe Blau 
+#FFFF00 entspricht der Farbe Gelb 
+#00FFFF entspricht der Farbe Cyan 
+#FF00FF entspricht der Farbe Magenta 
+#000000 entspricht der Farbe Schwarz 
+#FFFFFF entspricht der Farbe Weiß 
+#00BC00 entspricht der Farbe Dunkelgrün
+
+#### Aufgabe: Farbe von CMYK-Angaben
+C:0%, M:100%, Y:100%, K:0% entspricht der Farbe Magenta
+C:100%, M:0%, Y:100%, K:0% entspricht der Farbe Gelb
+C:100%, M:100%, Y:0%, K:0% entspricht der Farbe Cyan
+C:0%, M:0%, Y:100%, K:0% entspricht der Farbe Gelb
+C:100%, M:0%, Y:0%, K:0% entspricht der Farbe Rot
+C:0%, M:100%, Y:0%, K:0% entspricht der Farbe Grün
+C:100%, M:100%, Y:100%, K:0% entspricht der Farbe Weiß
+C:0%, M:0%, Y:0%, K:100% entspricht der Farbe Schwarz
+C:0%, M:0%, Y:0%, K:0% entspricht der Farbe Transparent
+C:0%, M:46%, Y:38%, K:22% entspricht der Farbe Dunkelgrau
+
+#### Aufgabe: 
+RGB 255/255/255 ergibt in YCbCr Y:1 Cb:0  Cr:0
+RGB 0/0/0 ergibt in YCbCr Y:0 Cb:0  Cr:0
+Y:1, Cb:0, Cr:0 entspricht der Farbe Weiss
+Y:0, Cb:0, Cr:0 entspricht der Farbe Schwarz
+Y:0, Cb:1, Cr:0 entspricht der Farbe Blau
+Y:0, Cb:-1, Cr:0 entspricht der Farbe Gelb
+Y:0, Cb:0, Cr:1 entspricht der Farbe Rot
+Y:0, Cb:0, Cr:-1 entspricht der Farbe Cyan
+Y:0.3, Cb:0.5, Cr:-0.17 entspricht der Farbe ....
