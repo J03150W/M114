@@ -5,6 +5,8 @@ ePortfolie des Moduls-114
  - [Tag-1](#Tag-1)
  - [Tag-2](#tag-2)
  - [Tag-3](#Tag-3)
+ - [Tag-4](#tag-4)
+ - [Tag-5](#Tag-5)
 
 ---
 
@@ -17,7 +19,7 @@ Files wenn man sie mit der Endung ".txt" bennent, zeigen nach Öffnung die verwa
 
 ### Aufgabe: Schachbrett
 #### Frage:
-Ein Schachbrett ist 8x8 (64 Felder). Wenn aufdem ersten Feld 0 Reiskörner, dem zweitem Feld 1 Reiskorn und sich die Anzahl Reiskörner mit jedem weiterem Feld verdoppelt. Wie viel Reiskörner befinden sich auf dem letsten Feld?
+Ein Schachbrett ist 8x8 (64 Felder). Wenn mit dem ersten feld mit 2^0 Reiskörner anfängt und die Zahl sich mit jedem Feld verdoppelt. Wie viel Reiskörner befinden sich auf dem letsten Feld?
 
 #### Antwort:
 Die Antwort lautet 2^63 <=> 9223372036854775807. 63, da das erste Feld keins beinhaltet und 2^0 Eins ergibt. 
@@ -181,3 +183,51 @@ Y:0, Cb:-1, Cr:0 entspricht der Farbe Gelb
 Y:0, Cb:0, Cr:1 entspricht der Farbe Rot
 Y:0, Cb:0, Cr:-1 entspricht der Farbe Cyan
 Y:0.3, Cb:0.5, Cr:-0.17 entspricht der Farbe ....
+
+---
+
+## Tag-4
+
+Heute haben wird uns mit der Komprimierung befassen. Jedoch nur für 3 Lektionen, da wir die LB1 in der letzen lektion geschrieben haben.
+
+### Aufgabe Huffman-Algorithmus
+
+Wort: Zwischenprodukt
+
+Code Tabelle: <br>
+| Buchstabe | Code
+|------|----------
+| Z | 0110
+| W | 0111
+| I | 0100
+| S | 0101
+| C | 1010
+| H | 1011
+| E | 1000
+| N | 1001
+| P | 1110
+| R | 1111
+| O | 1100
+| D | 1101
+| U | 0010
+| K | 0011
+| T | 000
+
+---
+
+## Tag-5
+
+Heute haben wir uns wie letztes mal mit der Komprimierung befassen. Dazu haben wir auch die LB1 von letzter Woche besprochen. Ich habe die Note 4.5 erhalten, mit welcher ich zufrieden bin.
+
+### Aufgabe RLC/E-Verfahren umwandeln
+
+RL-Code: 010100011110010010010010010010010010010110010110010010010010010010010010001
+
+⬜⬜⬜⬛⬜⬜⬛⬜<br>
+⬛⬛⬜⬛⬜⬛⬜⬛<br>
+⬜⬛⬜⬜⬜⬛⬜⬛<br>
+⬜⬛⬜⬛⬜⬛⬜⬛<br>
+⬜⬛⬜⬜⬜⬛⬜⬛<br>
+⬜⬛⬜⬛⬜⬛⬜⬛<br>
+⬜⬛⬜⬛⬜⬛⬜⬛<br>
+⬜⬛⬜⬛⬜⬛⬜⬛<br>
